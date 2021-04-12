@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/review_write_member_profile_img_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/loading"/>
+
+        <TextView
+            android:id="@+id/review_write_member_nickname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="sdddd"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/review_write_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2019.1.1 12:12"/>
+
+        <TextView
+            android:id="@+id/review_edit_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="수정"/>
+
+        <TextView
+            android:id="@+id/review_remove_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/review_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/review_img_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/review_img_1_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:id="@+id/review_img_2_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/default_profile"/>
+
+        <ImageView
+            android:id="@+id/review_img_3_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/default_profile"/>
+
+        <ImageView
+            android:id="@+id/review_img_4_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/default_profile"/>
+
+        <ImageView
+            android:id="@+id/review_img_5_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/default_profile"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/review_img_more_tv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="24sp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="..."/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/review_sentiment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginEnd="16dp"
+            android:textColor="#888800"/>
+
+    </LinearLayout>
+
+</LinearLayout>
